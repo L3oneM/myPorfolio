@@ -1,0 +1,25 @@
+@import '../../config';
+
+.menu-items {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .menu-item {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.home-link,
+    &.about-link,
+    &.work-link,
+    &.contact-link {
+      color: goldenrod;
+    }
+  }
+}

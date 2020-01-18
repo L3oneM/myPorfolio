@@ -1,0 +1,31 @@
+.myWork-page {
+  width: 100vw;
+  height: 85vh;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    height: 100vh;
+  }
+
+  .myWork-page-ctn {
+    padding-top: 1rem;
+    .header-ctn {
+      margin: 5rem auto 2.5rem;
+    }
+
+    .projects-container {
+      display: flex;
+      justify-content: center;
+      align-items: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .bar {
+      height: 0.4rem;
+      width: 8rem;
+      margin: auto;
+      background-color: #000;
+    }
+  }
+}
