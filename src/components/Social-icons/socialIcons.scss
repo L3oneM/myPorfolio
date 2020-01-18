@@ -1,7 +1,7 @@
 @import '../../config';
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translatex(-50%);
@@ -22,8 +22,19 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
+  footer {
+    .icons {
+      margin: 0.4rem;
+    }
+  }
   .copyright {
     font-size: 1.3rem;
     color: #fff;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  footer {
+    bottom: 5px;
   }
 }

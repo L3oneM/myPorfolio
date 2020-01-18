@@ -9,9 +9,9 @@
   }
 
   .ar-dw {
-    color: rgb(150, 16, 16);
+    color: #000;
     position: fixed;
-    top: 80%;
+    top: 70%;
     left: 4%;
     visibility: hidden;
   }
@@ -43,6 +43,15 @@
 
 @media only screen and (max-width: 600px) {
   .myWork-page {
+    .ar-dw {
+      visibility: visible;
+    }
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .myWork-page {
+    height: 80vh;
     .ar-dw {
       visibility: visible;
     }

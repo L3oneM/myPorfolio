@@ -101,3 +101,9 @@
     }
   }
 }
+
+@media only screen and (max-height: 500px) {
+  .about-page {
+    height: 80vh;
+  }
+}
