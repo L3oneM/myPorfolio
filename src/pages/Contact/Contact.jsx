@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Icons from '../../components/Icons/Icons';
+
 import './contact.scss';
 
 const Contact = ({ setPage, onInk }) => {
@@ -21,6 +23,7 @@ const Contact = ({ setPage, onInk }) => {
         <div className='email animated fadeInRight slow delay-1s'>
           <span>Email: </span>apomatios@gmail.com
         </div>
+        <Icons />
       </div>
     </div>
   );

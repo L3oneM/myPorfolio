@@ -9,15 +9,6 @@ footer {
 
   .icons {
     margin-bottom: 1rem;
-    a {
-      padding: 0.6rem;
-      color: #000;
-
-      &:hover {
-        color: #2098d1;
-        @include easeOut();
-      }
-    }
 
     &.hide-footer {
       display: none;
@@ -26,11 +17,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-  footer {
-    .icons {
-      margin: 0.4rem;
-    }
-  }
   .copyright {
     font-size: 1.3rem;
     color: #fff;
