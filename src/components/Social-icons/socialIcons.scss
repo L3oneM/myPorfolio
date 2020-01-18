@@ -18,6 +18,10 @@ footer {
         @include easeOut();
       }
     }
+
+    &.hide-footer {
+      display: none;
+    }
   }
 }
 

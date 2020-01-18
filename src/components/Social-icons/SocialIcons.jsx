@@ -2,10 +2,14 @@ import React from 'react';
 
 import './socialIcons.scss';
 
-const SocialIcons = () => {
+const SocialIcons = ({ currentPage }) => {
   return (
     <footer>
-      <div className='icons animated fadeIn'>
+      <div
+        className={`${
+          currentPage === 'My Work' ? 'hide-footer' : ''
+        } icons animated fadeIn`}
+      >
         <a
           href='https://github.com/L3oneM'
           target='_blank'

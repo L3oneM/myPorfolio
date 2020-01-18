@@ -59,7 +59,7 @@ const App = () => {
           render={props => <Contact setPage={setPage} onInk={onInk} />}
         />
       </Switch>
-      <SocialIcons />
+      <SocialIcons currentPage={currentPage} />
     </div>
   );
 };
