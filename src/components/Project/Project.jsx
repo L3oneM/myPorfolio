@@ -6,7 +6,6 @@ import './project.scss';
 
 const Project = ({ project, onInk }) => {
   const { title, imgUrl, demo, info, github } = project;
-  console.log(title, imgUrl, demo, info, github);
   return (
     <div
       className={`${

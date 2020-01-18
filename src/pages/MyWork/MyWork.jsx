@@ -17,6 +17,7 @@ const MyWork = ({ setPage, onInk }) => {
           <h1 className='mywork-header lg-heading'>Projects</h1>
           <div className='bar'></div>
         </div>
+        <i className='fas fa-arrow-down fa-3x ar-dw animated bounce slow infinite'></i>
         <div className='projects-container'>
           {projects.map(project => (
             <Project key={project.id} project={project} onInk={onInk} />

@@ -8,13 +8,24 @@
     height: 100vh;
   }
 
+  .ar-dw {
+    color: rgb(150, 16, 16);
+    position: fixed;
+    top: 80%;
+    left: 4%;
+    visibility: hidden;
+  }
+
   .myWork-page-ctn {
     padding-top: 1rem;
+    width: 100vw;
+
     .header-ctn {
-      margin: 5rem auto 2.5rem;
+      margin: 3rem auto 2.5rem;
     }
 
     .projects-container {
+      margin: 0 1rem;
       display: flex;
       justify-content: center;
       align-items: space-evenly;
@@ -26,6 +37,14 @@
       width: 8rem;
       margin: auto;
       background-color: #000;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .myWork-page {
+    .ar-dw {
+      visibility: visible;
     }
   }
 }

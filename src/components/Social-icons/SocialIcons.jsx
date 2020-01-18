@@ -5,7 +5,7 @@ import './socialIcons.scss';
 const SocialIcons = () => {
   return (
     <footer>
-      <div className='icons'>
+      <div className='icons animated fadeIn'>
         <a
           href='https://github.com/L3oneM'
           target='_blank'
@@ -27,9 +27,9 @@ const SocialIcons = () => {
         >
           <i className='fab fa-facebook fa-3x'></i>
         </a>
-        <a href='#!'>
+        {/* <a href='#!'>
           <i className='fab fa-telegram fa-3x'></i>
-        </a>
+        </a> */}
       </div>
       <div className='copyright'>Apostolos Matios &copy; 2019</div>
     </footer>

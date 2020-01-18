@@ -7,7 +7,7 @@ export const projectsData = [
     id: '1',
     info: `Sweet Home is a Full Stack E-commerse project.
     For the FrontEnd I used:
-    React, Redux and Stripe for the payments
+    React, Redux and Stripe for the payments.
     For the backEnd: Firebase,
     NodeJs and ExpressJs.
     `
